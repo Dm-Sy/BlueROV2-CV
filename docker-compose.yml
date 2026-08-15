@@ -19,5 +19,3 @@ services:
     tty: true
     devices:                      # <---docker permission to access laptop camera
       - /dev/video0:/dev/video0   # <---docker permission to access laptop camera
-
-
